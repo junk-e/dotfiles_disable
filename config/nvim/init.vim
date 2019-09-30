@@ -52,6 +52,13 @@ augroup storing_cursor
         \ endif
 augroup END
 
+" Storing folds
+augroup storing_folds
+  autocmd!
+  au BufWinLeave ?* mkview 1
+  au BufWinEnter ?* silent! loadview 1
+augroup END
+
 "}}}
 
 " Search / Replace "{{{
