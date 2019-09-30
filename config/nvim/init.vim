@@ -130,6 +130,17 @@ endfunction
 
 "}}}
 
+" Filetype "{{{
+"-------------------------------------------------------------------------------
+
+" Fix TeX filetype to tex (Default:plaintex)
+augroup tex_fix_filetype
+    autocmd!
+    autocmd BufEnter *.tex setl filetype=tex
+augroup END
+
+"}}}
+
 " Key mappings "{{{
 "-------------------------------------------------------------------------------
 
