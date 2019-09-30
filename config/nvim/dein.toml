@@ -6,3 +6,11 @@ repo = 'Shougo/neosnippet-snippets'
 
 [[plugins]]
 repo = 'cespare/vim-toml'
+
+[[plugins]]
+repo = 'Yggdroot/indentLine'
+hook_add = '''
+    let g:indentLine_char = '¦'
+    let g:indentLine_color_term = 24
+    let g:indentLine_color_gui = '#00557c'
+'''
