@@ -139,6 +139,12 @@ augroup tex_fix_filetype
     autocmd BufEnter *.tex setl filetype=tex
 augroup END
 
+" Fix Fish filetype to conf
+augroup fish_fix_filetype
+    autocmd!
+    autocmd BufEnter *.fish setl filetype=conf
+augroup END
+
 "}}}
 
 " Key mappings "{{{
