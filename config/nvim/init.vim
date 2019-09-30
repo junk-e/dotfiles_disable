@@ -112,6 +112,22 @@ set foldmethod=marker
 set foldlevel=2
 set foldcolumn=3
 
+" Delete unnecessary spaces
+augroup delete_unnrcessary_space
+    autocmd!
+    autocmd BufWritePre * call s:remove_unnecessary_space()
+augroup END
+
+function! s:remove_unnecessary_space()
+    " delete last spaces
+    %s/\s\+$//ge
+
+    " delete last blank lines
+    while getline('$') == ""
+            $delete _
+    endwhile
+endfunction
+
 "}}}
 
 " Key mappings "{{{
