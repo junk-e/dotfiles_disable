@@ -43,6 +43,15 @@ augroup auto_comment_off
     autocmd BufEnter * setlocal formatoptions-=o
 augroup END
 
+" Storing cursor position
+augroup storing_cursor
+    autocmd!
+    autocmd BufReadPost *
+        \ if line("'\"") > 0 && line ("'\"") <= line("$") |
+        \     exe "normal! g'\"" |
+        \ endif
+augroup END
+
 "}}}
 
 " Search / Replace "{{{
