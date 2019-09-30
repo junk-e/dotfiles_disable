@@ -36,6 +36,13 @@ set backspace=2
 set clipboard&
 set clipboard^=unnamedplus
 
+" auto comment off
+augroup auto_comment_off
+    autocmd!
+    autocmd BufEnter * setlocal formatoptions-=r
+    autocmd BufEnter * setlocal formatoptions-=o
+augroup END
+
 "}}}
 
 " Search / Replace "{{{
