@@ -202,6 +202,12 @@ augroup tex_auto_wrapping
     autocmd Filetype tex setlocal formatoptions+=tcmMq
 augroup END
 
+" Don't expand tab in snippet files
+augroup snip_noexpand
+    autocmd!
+    autocmd Filetype neosnippet setlocal noexpandtab
+augroup END
+
 "}}}
 
 " Key mappings "{{{
