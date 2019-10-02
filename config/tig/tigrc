@@ -288,6 +288,7 @@ bind generic    :   prompt          # Open the prompt
 bind generic    <C-L>   screen-redraw       # Redraw the screen
 bind generic    z   stop-loading        # Stop all loading views
 bind generic    v   show-version        # Show Tig version
+bind generic    Y   @bash -c "echo -n '%(commit)' | xsel -b"
 
 # Colors
 # ------
