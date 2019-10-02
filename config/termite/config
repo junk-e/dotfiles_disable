@@ -41,36 +41,43 @@ scrollback_lines = 10000
 [colors]
 # If both of these are unset, cursor falls back to the foreground color,
 # and cursor_foreground falls back to the background color.
-#cursor = #dcdccc
-#cursor_foreground = #dcdccc
 
-#foreground = #dcdccc
-#foreground_bold = #ffffff
-#background = #3f3f3f
+foreground = #00abf8
+foreground_bold = #00abf8
+cursor = #00abf8
+cursor_foreground = #00abf8
+background = #00070a
 
 # 20% background transparency (requires a compositor)
 #background = rgba(63, 63, 63, 0.8)
 
 # If unset, will reverse foreground and background
-highlight = #2f2f2f
+#highlight = #2f2f2f
 
-# Colors from color0 to color254 can be set
-color0 = #3f3f3f
-color1 = #705050
-color2 = #60b48a
-color3 = #dfaf8f
-color4 = #506070
-color5 = #dc8cc3
-color6 = #8cd0d3
-color7 = #dcdccc
-color8 = #709080
-color9 = #dca3a3
-color10 = #c3bf9f
-color11 = #f0dfaf
-color12 = #94bff3
-color13 = #ec93d3
-color14 = #93e0e3
-color15 = #ffffff
+# Black, Gray, Silver, White
+color0  = #00070a
+color8  = #6e56af
+color7  = #002b3d
+color15 = #002b3d
+# Red
+color1  = #d21819
+color9  = #d21819
+# Green
+color2  = #00afb3
+color10 = #00afb3
+# Yellow
+color3  = #dac600
+color11 = #dac600
+# Blue
+color4  = #00abf8
+color12 = #00abf8
+# Magenta
+color5  = #48e7e8
+color13 = #48e7e8
+# Cyan
+color6  = #00557c
+color14 = #00557c
+
 
 [hints]
 #font = Monospace 12
