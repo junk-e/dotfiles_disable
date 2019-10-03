@@ -16,6 +16,15 @@ hook_add = '''
 '''
 
 [[plugins]]
+repo = 'itchyny/lightline.vim'
+hook_add = '''
+    let g:lightline = {
+    \    'colorscheme': 'wombat'
+    \}
+'''
+
+
+[[plugins]]
 repo = 'cohama/lexima.vim'
 hook_add = '''
     call lexima#add_rule({'char': '$', 'input_after': '$', 'filetype': 'latex'})
