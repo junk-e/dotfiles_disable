@@ -125,6 +125,9 @@ set gdefault
 " Show linenumbers
 set number
 
+" Hide cursorline
+set nocursorline
+
 " Tab Settings
 set expandtab
 set tabstop=4
