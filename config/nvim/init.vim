@@ -211,6 +211,9 @@ augroup snip_noexpand
     autocmd Filetype neosnippet setlocal noexpandtab
 augroup END
 
+" Disable TeX conceal
+let g:tex_conceal=''
+
 "}}}
 
 " Key mappings "{{{
