@@ -240,4 +240,6 @@ nnoremap <silent> <ESC><ESC> :nohl<CR>
 nnoremap j gj
 nnoremap k gk
 
+nnoremap <Space>s gq$
+
 "}}}
