@@ -200,8 +200,8 @@ augroup END
 " Enable automatic line breaks and colorcolumn
 augroup tex_auto_wrapping
     autocmd!
-    autocmd BufEnter *.tex setlocal textwidth=80
-    autocmd Filetype tex setlocal colorcolumn=81
+    autocmd BufEnter *.tex setlocal textwidth=100
+    autocmd Filetype tex setlocal colorcolumn=101
     autocmd Filetype tex setlocal formatoptions+=tcmMq
 augroup END
 
