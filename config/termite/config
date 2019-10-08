@@ -45,7 +45,7 @@ cursor_shape = block
 foreground = #00abf8
 foreground_bold = #00abf8
 cursor = #00abf8
-cursor_foreground = #00abf8
+cursor_foreground = #00070a
 background = #00070a
 
 # 20% background transparency (requires a compositor)
