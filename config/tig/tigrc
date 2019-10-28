@@ -91,38 +91,37 @@ set truncation-delimiter    = ~     # Character drawn for truncations, or "utf-8
 set reference-format        = [branch] <tag> {remote} ~replace~
 
 # Settings controlling how content is read from Git
-set commit-order        = auto      # Enum: auto, default, topo, date, reverse (main)
+set commit-order                = auto      # Enum: auto, default, topo, date, reverse (main)
 set status-show-untracked-dirs  = yes       # Show files in untracked directories? (status)
 set status-show-untracked-files = yes       # Show untracked files?
-set ignore-space        = no        # Enum: no, all, some, at-eol (diff)
-set show-notes          = yes       # When non-bool passed as `--show-notes=...` (diff)
-#set diff-context       = 3     # Number of lines to show around diff changes (diff)
-#set diff-options       = -C        # User-defined options for `tig show` (git-diff)
-#set diff-highlight     = true      # String (or bool): Path to diff-highlight script,
-                        #                   defaults to `diff-highlight`.
-#set blame-options      = -C -C -C  # User-defined options for `tig blame` (git-blame)
-#set log-options        = --pretty=raw  # User-defined options for `tig log` (git-log)
-#set main-options       = -n 1000   # User-defined options for `tig` (git-log)
-#set mailmap            = yes       # Use .mailmap to show canonical name and email address
+set ignore-space                = no        # Enum: no, all, some, at-eol (diff)
+set show-notes                  = yes       # When non-bool passed as `--show-notes=...` (diff)
+#set diff-context               = 3         # Number of lines to show around diff changes (diff)
+#set diff-options               = -C        # User-defined options for `tig show` (git-diff)
+#set diff-highlight             = true      # String (or bool): Path to diff-highlight script,
+                                            #                   defaults to `diff-highlight`.
+#set blame-options              = -C -C -C  # User-defined options for `tig blame` (git-blame)
+#set log-options                = --pretty=raw  # User-defined options for `tig log` (git-log)
+#set main-options               = -n 1000   # User-defined options for `tig` (git-log)
+#set mailmap                    = yes       # Use .mailmap to show canonical name and email address
 
 # Misc
-set refresh-mode        = auto      # Enum: manual, auto, after-command, periodic
-set refresh-interval        = 10        # Interval in seconds between refreshes
-set ignore-case         = no        # Enum: no, yes, smart-case
-                        # Ignore case when searching? Smart-case option will
-set wrap-search         = yes       # Wrap around to top/bottom of view when searching
-set focus-child         = yes       # Move focus to child view when opened?
-set horizontal-scroll       = 50%       # Number of columns to scroll as % of width
-set split-view-height       = 67%       # Height of the bottom view for horizontal splits
-set vertical-split      = auto      # Enum: horizontal, vertical, auto; Use auto to
-                        # switch to horizontal split when width allows it
-set split-view-width        = 50%       # Width of right-most view for vertical splits
-set editor-line-number      = yes       # Automatically pass line number to editor? Used
-                        # for opening file at specific line e.g. from a diff
-set history-size        = 500       # Size of persistent history, 0 to disable
-set mouse           = no        # Enable mouse support?
-set mouse-scroll        = 3     # Number of lines to scroll via the mouse
-set mouse-wheel-cursor      = no        # Prefer moving the cursor to scrolling the view?
+set refresh-mode        = auto          # Enum: manual, auto, after-command, periodic
+set refresh-interval    = 10            # Interval in seconds between refreshes
+set ignore-case         = no            # Enum: no, yes, smart-case
+                                        # Ignore case when searching? Smart-case option will
+set wrap-search         = yes           # Wrap around to top/bottom of view when searching
+set focus-child         = yes           # Move focus to child view when opened?
+set horizontal-scroll   = 50%           # Number of columns to scroll as % of width
+set split-view-height   = 67%           # Height of the bottom view for horizontal splits
+set vertical-split      = auto          # Enum: horizontal, vertical, auto
+set split-view-width    = 50%           # Width of right-most view for vertical splits
+set editor-line-number  = yes           # Automatically pass line number to editor? Used
+                                        # for opening file at specific line e.g. from a diff
+set history-size        = 500           # Size of persistent history, 0 to disable
+set mouse               = no            # Enable mouse support?
+set mouse-scroll        = 3             # Number of lines to scroll via the mouse
+set mouse-wheel-cursor  = no            # Prefer moving the cursor to scrolling the view?
 
 # User-defined commands
 # ---------------------
