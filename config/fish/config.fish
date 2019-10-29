@@ -24,4 +24,8 @@ alias gsl='git stash list'
 alias gri='git rebase -i HEAD~10'
 alias grc='git rebase --continue'
 
+alias lmk='latexmk -pvc'
+alias lmkc='latexmk -c'
+alias lmkcall='latexmk -C'
+
 #}}}
